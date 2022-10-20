@@ -1,0 +1,79 @@
+.grid {
+    
+    display: flex;
+    flex-wrap: wrap;
+    z-index: -1;
+    margin: 5%;
+    background-color: rgb(243,147,236);
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid {
+        width: 450px;
+        height: 450px; 
+        
+    }
+  }
+  
+@media only screen and (max-width: 600px) {
+    .grid div {
+        width: 50px;
+        height: 50px;
+        
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .grid {
+        width: 540px;
+        height: 540px; 
+        
+    }
+  }
+  
+@media only screen and (min-width: 600px) {
+    .grid div {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+h3{
+    margin: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #dacbcb;
+}
+
+.endingblock {
+    background-image: url('images/cheeseburger.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.frog {
+    background-color: aquamarine;
+    border-radius: 50%;
+    
+}
+
+.test{
+    height: 25%;
+    width: 50%;
+    background: crimson;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    padding-top: 15%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    color: #dacbcb;
+}
+
+body{
+    background-color: #353535;
+}
